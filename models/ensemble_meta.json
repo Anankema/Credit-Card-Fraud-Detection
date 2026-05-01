@@ -1,0 +1,18 @@
+{
+  "components": [
+    "lgbm_optuna_final.pkl",
+    "xgb_final.pkl"
+  ],
+  "aggregation": "Avg(LGBM, XGB)",
+  "optimal_threshold": 0.42000000000000004,
+  "metrics_test": {
+    "roc_auc": 0.9653,
+    "pr_auc": 0.8243,
+    "recall": 0.7684,
+    "precision": 0.869,
+    "f1": 0.8156,
+    "fn": 22,
+    "fp": 11,
+    "business_loss": 2739.0
+  }
+}
